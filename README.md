@@ -2,15 +2,15 @@
 
 Grama Katha is an Android app for village shopkeepers who still manage customer credit in physical notebooks. It replaces fragile paper-based records with a simple offline digital ledger for tracking dues, recording payments, and sending reminders through WhatsApp or SMS.
 
-## Repository Status For Evaluation
+## Project Links
 
 - Public GitHub repository: `soujanya292/Grama-Khata`
+- Live demo: [Appetize Preview](https://appetize.io/app/b_xv5tyrvhzritctoud4txyy4qra)
 - Source code included: Yes
 - README included: Yes
 - Gradle configuration included: Yes
 - Android resources included: Yes
 - Buildable Android Studio project: Yes
-- Additional evaluation document: [`PROJECT_EVALUATION.html`](./PROJECT_EVALUATION.html)
 
 ## Problem Statement
 
@@ -49,9 +49,9 @@ The app is built as a simplified digital ledger for rural micro-finance use case
 - Kannada localization support
 - Delete customer and delete transaction actions
 
-## Source Code Evidence
+## Source Code Overview
 
-The repository contains full Android source code, configuration, assets, and resources required for evaluation.
+The repository contains full Android source code, configuration, assets, and resources required to run and review the project.
 
 ### Main source folders
 
@@ -92,9 +92,9 @@ The repository contains full Android source code, configuration, assets, and res
 6. The shopkeeper can send a due reminder through WhatsApp or SMS.
 7. Reports can be viewed as text summaries and ledgers can be exported as CSV.
 
-## Success Criteria Alignment
+## Project Goals Alignment
 
-This project was built to satisfy the given academic evaluation goals.
+This project is designed to meet the core goals of the Grama-Khata problem statement.
 
 - `Net Due updates instantly`
   The balance is derived from Room transaction data and exposed through `StateFlow` in the ViewModel.
@@ -264,7 +264,8 @@ The project is structured as a complete Android Studio app with Gradle configura
 
 ## Screenshots / Demo
 
-Screenshots and a short demo video link can be added here for even stronger evaluation evidence. The project already includes the full working source code and Android build structure required for automated review.
+- Interactive demo: [https://appetize.io/app/b_xv5tyrvhzritctoud4txyy4qra](https://appetize.io/app/b_xv5tyrvhzritctoud4txyy4qra)
+- Additional screenshots or a short demo video can be added later.
 
 ## Why This Project Is Meaningful
 
@@ -288,6 +289,6 @@ The app contributes to financial digitization for micro-enterprises and helps re
 - cloud sync across multiple devices
 - due date reminders and notification scheduling
 
-## Evaluation-Focused Summary
+## Project Summary
 
 Grama Katha is an Android-based offline digital ledger application for village shopkeepers who currently track customer credit using paper notebooks. The app enables customer management, real-time due calculation, credit/payment transaction logging, daily and monthly report generation, WhatsApp/SMS reminder sharing, and CSV ledger export. It is built using Kotlin, Jetpack Compose, Room Database, and MVVM architecture, with a strong focus on usability, reliability, and micro-enterprise financial digitization.
