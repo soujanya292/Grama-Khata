@@ -5,7 +5,7 @@ Grama Katha is an Android app for village shopkeepers who still manage customer 
 ## Project Links
 
 - Public GitHub repository: `soujanya292/Grama-Khata`
-- Live demo: [Appetize Preview](https://appetize.io/app/b_xv5tyrvhzritctoud4txyy4qra)
+- Live demo: [Appetize Preview](https://appetize.io/app/b_z2srbbnax75tz77kd3suxc7skm)
 - Source code included: Yes
 - README included: Yes
 - Gradle configuration included: Yes
@@ -35,11 +35,12 @@ The app is built as a simplified digital ledger for rural micro-finance use case
 
 ## Core Features
 
-- Customer management with name and phone number
+- Customer management with name, phone number, and lender photo
 - Live due dashboard sorted by balance
 - Search customers by name
 - Quick add credit and payment entries
 - Detailed customer transaction history
+- Camera-based lender photo capture for easier customer identification
 - Real-time net balance updates using ViewModel + Room flows
 - WhatsApp/SMS reminder sharing with customizable message template
 - Shop profile and settings management
@@ -113,8 +114,12 @@ This project is designed to meet the core goals of the Grama-Khata problem state
 - `MVVM Architecture`
 - `StateFlow / Flow`
 - `Navigation Compose`
+- `Activity Result API`
+- `Android Camera Integration`
 - `Android Intents`
 - `FileProvider` for CSV sharing
+- `FileProvider` for captured customer photos
+- `Coil` for image loading in Compose
 - `ZXing` for QR code generation
 
 ## Configuration Files Present
@@ -199,10 +204,10 @@ Grama-Khata/
 ## Important Screens
 
 - `Dashboard Screen`
-  Customer list, search, summary card, quick actions, daily/monthly reports
+  Customer list with profile photos, search, summary card, quick actions, daily/monthly reports
 
 - `Add/Edit Customer Screen`
-  Add customer details with basic validation
+  Add customer details, basic validation, and capture a lender photo using the device camera
 
 - `Transaction Screen`
   Record udari/payment, view ledger, delete transactions, send reminders, export CSV
@@ -264,7 +269,7 @@ The project is structured as a complete Android Studio app with Gradle configura
 
 ## Screenshots / Demo
 
-- Interactive demo: [https://appetize.io/app/b_xv5tyrvhzritctoud4txyy4qra](https://appetize.io/app/b_xv5tyrvhzritctoud4txyy4qra)
+- Interactive demo: [https://appetize.io/app/b_z2srbbnax75tz77kd3suxc7skm](https://appetize.io/app/b_z2srbbnax75tz77kd3suxc7skm)
 - Additional screenshots or a short demo video can be added later.
 
 ## Why This Project Is Meaningful
