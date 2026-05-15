@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ಗ್ರಾಮ ಖಾತಾ</string>
+    <string name="add_customer">ಗ್ರಾಹಕರನ್ನು ಸೇರಿಸಿ</string>
+    <string name="edit_customer">ಗ್ರಾಹಕರ ವಿವರ ತಿದ್ದುಪಡಿ</string>
+    <string name="search_hint">ಹೆಸರಿನ ಮೂಲಕ ಹುಡುಕಿ…</string>
+    <string name="save_customer">ಉಳಿಸಿ</string>
+    <string name="whatsapp_not_installed">WhatsApp ಇನ್‌ಸ್ಟಾಲ್ ಆಗಿಲ್ಲ</string>
+    <string name="daily_report">ದೈನಂದಿನ ಸಾರಾಂಶ</string>
+</resources>

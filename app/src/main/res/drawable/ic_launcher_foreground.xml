@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Centered Logo with shadow/glow -->
+    <group
+        android:translateX="0"
+        android:translateY="0"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:pivotX="256"
+        android:pivotY="256">
+
+        <!-- White Ring for visibility -->
+        <path
+            android:pathData="M256,256m-200,0a200,200 0,1 1,400 0a200,200 0,1 1,-400 0"
+            android:strokeWidth="12"
+            android:strokeColor="#40FFFFFF"/>
+
+        <!-- Tree Trunk / Ledger spine -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M240,380 L272,380 L272,240 L240,240 Z" />
+
+        <!-- Tree Canopy as curved Ledger pages -->
+        <path
+            android:pathData="M256,120 C180,120 140,180 140,240 C140,260 160,280 200,280 L312,280 C352,280 372,260 372,240 C372,180 332,120 256,120 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="140"
+                    android:startY="200"
+                    android:endX="372"
+                    android:endY="200"
+                    android:type="linear">
+                    <item android:offset="0" android:color="#EEFFFFFF"/>
+                    <item android:offset="1" android:color="#FFFFFFFF"/>
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Flourishing Leaves (Growth) -->
+        <path android:fillColor="#A5D6A7" android:pathData="M256,100c-10-20-30-20-40,0s10,40 40,40s30-20 0-40z"/>
+        <path android:fillColor="#C8E6C9" android:pathData="M180,160c-15-15-35-5-35,15s20,30 35,15z"/>
+        <path android:fillColor="#C8E6C9" android:pathData="M332,160c15-15 35-5 35,15s-20,30 -35,15z"/>
+
+        <!-- Rupee Symbol -->
+        <path
+            android:fillColor="#1B5E20"
+            android:pathData="M230,190 L282,190 M230,210 L282,210 M256,180 C240,180 230,195 230,210 C230,240 282,220 282,250"
+            android:strokeWidth="10"
+            android:strokeColor="#1B5E20"
+            android:strokeLineCap="round"/>
+    </group>
+</vector>

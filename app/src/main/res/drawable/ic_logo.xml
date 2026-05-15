@@ -1,0 +1,65 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Background Circle with elegant gradient -->
+    <path android:pathData="M256,256m-240,0a240,240 0,1 1,480 0a240,240 0,1 1,-480 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="256"
+                android:startY="16"
+                android:endX="256"
+                android:endY="496"
+                android:type="linear">
+                <item android:offset="0" android:color="#FF1B5E20"/>
+                <item android:offset="1" android:color="#FF4CAF50"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stylized "Banyan Tree" (Symbol of Village/Grama) + Ledger (Fintech) -->
+    <!-- Tree Trunk / Ledger spine -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M240,380 L272,380 L272,240 L240,240 Z" />
+
+    <!-- Tree Canopy as curved Ledger pages -->
+    <path
+        android:pathData="M256,120 C180,120 140,180 140,240 C140,260 160,280 200,280 L312,280 C352,280 372,260 372,240 C372,180 332,120 256,120 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="140"
+                android:startY="200"
+                android:endX="372"
+                android:endY="200"
+                android:type="linear">
+                <item android:offset="0" android:color="#CCFFFFFF"/>
+                <item android:offset="1" android:color="#FFFFFFFF"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Abstract "Rupee" symbol integrated into the tree/leaves -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M230,180 L282,180 M230,200 L282,200 M256,170 C240,170 230,185 230,200 C230,230 282,210 282,240"
+        android:strokeWidth="8"
+        android:strokeColor="#1B5E20"
+        android:strokeLineCap="round"/>
+
+    <!-- Flourishing Leaves (Growth) -->
+    <path android:fillColor="#81C784" android:pathData="M256,100c-10-20-30-20-40,0s10,40 40,40s30-20 0-40z"/>
+    <path android:fillColor="#C8E6C9" android:pathData="M180,160c-15-15-35-5-35,15s20,30 35,15z"/>
+    <path android:fillColor="#C8E6C9" android:pathData="M332,160c15-15 35-5 35,15s-20,30 -35,15z"/>
+
+    <!-- Subtle Outer Glow/Ring -->
+    <path
+        android:pathData="M256,16 A240,240 0,0,1 496,256"
+        android:strokeWidth="4"
+        android:strokeColor="#40FFFFFF"
+        android:strokeLineCap="round"/>
+
+</vector>

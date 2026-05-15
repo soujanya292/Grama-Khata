@@ -1,0 +1,8 @@
+<resources>
+    <color name="brand_primary">#2F6D4D</color>
+    <color name="brand_primary_dark">#1F4E35</color>
+    <color name="brand_accent">#D98B3A</color>
+    <color name="brand_background">#F8F4EA</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
